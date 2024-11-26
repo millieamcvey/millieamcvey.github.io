@@ -1,0 +1,151 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*Nav Bar Formatting*/
+    .nav-bar {
+        background-color: black;
+        width: 99.99%;
+        height: fit-content;
+        padding: 0.5%;
+        margin: auto;
+        position: fixed;
+        z-index: 10;
+        top: 0%;
+        left: 0%;
+        overflow: none;
+    }
+    .nav-bar a {
+        color: white;
+        padding: 0%;
+        margin: auto;
+    }
+
+    .nav-bar li {
+        list-style: none;
+        display: inline-block;
+        width: auto;
+        padding: 0%;
+        margin: 0% 1% 0% 0%;
+    }
+/*End of Nav Bar*/
+div {
+    position: relative;
+    top: 15%;
+    margin: 7.5%;
+}
+/* Headers */
+* {
+    font-family: "Roboto";
+}
+h1 {
+    font-size: 2.25em;
+    margin: 5%;
+}
+h2 {
+    text-align: center;
+    margin: 5%;
+    font-size: 1.8em;
+}
+h3 {
+    text-align: center;
+    margin: 5%;
+    font-size: 1.5em;
+}
+h4 {
+    text-align: center;
+    margin: 5%;
+    font-size: 1.2em;
+    
+}
+
+/*Homepage*/
+    /*Landing View*/
+        #landing-view {
+            position: relative;
+            text-align: center;
+            margin: 0%;
+            background-color: lightgray;
+            width: 80%;
+            padding: 10%;
+        }
+          
+        #landing-view p {
+            margin: 0 auto;
+            width: 75%;
+            text-align: justify;
+        }
+    /*Intro Div*/
+    #intro-section {
+        position: relative;
+        top: 60px;
+        height: 200px;    
+    }
+    #intro-section p {
+    border: solid lightgrey;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    margin: 20px 0px 30px 0px;
+    width: 85%;
+    margin: 0px auto;
+    }
+    #intro-section li {
+        position: relative;
+        top: 30px;
+        padding: 10px;
+    }
+    #intro-section img {
+        
+        overflow: none;
+        position: relative;
+        top: 50px;
+        width: 100px;
+        display: inline-block;
+        margin: 0px auto;
+        padding: 10px;
+
+    }
+/*End of Intro Div*/
+    /*Project Preview*/
+        .project-card {
+            display: inline-block;
+            width: 28%;
+            border: solid lightgrey;
+            background-color: lightgrey;
+            border-width: 1%;
+            border-radius: 1.25em;
+            margin: auto;
+            text-align: center;
+            padding: 1%;
+            position: relative;
+            top: 10%;
+            
+            
+        }
+        div .project-card {
+            margin: 0.5%;
+        }
+        .project-card img {
+            width: 90%;
+            height: 250px;
+            border-radius: 1em;
+            padding: 1.5%;
+        }
+        .project-card p {
+            text-align: center;
+            overflow: none;
+            margin: auto;
+            padding: 5%;
+        }
+        button {
+            width: 50%;
+            border: solid black;
+            border-width: 2px;
+            border-radius: 1em;
+            padding: 2%;
+            margin: 4%;
+        }
+/*End of Homepage*/
+/*About Page:*/
+    
+/*End of About Page*/
