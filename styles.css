@@ -1,22 +1,23 @@
 /*Imports*/
-@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 /*Nav Bar Formatting*/
     .nav-bar {
         background-color: black;
         width: 99.99%;
         height: fit-content;
-        padding: 0.5%;
+        padding: 1%;
         margin: auto;
         position: fixed;
-        z-index: 10;
         top: 0%;
-        left: 0%;
+        z-index: 10;
+       
         overflow: none;
     }
-    .nav-bar a {
+   .nav-bar a {
         color: white;
-        padding: 0%;
+        padding: 1%;
         margin: auto;
+        font-size: 1em;
     }
 
     .nav-bar li {
@@ -26,29 +27,62 @@
         padding: 0%;
         margin: 0% 1% 0% 0%;
     }
+   
+    
 /*End of Nav Bar*/
-div {
+/*Footer*/
+    
+    footer {
+        padding: 5%;
+        background-color: black;
+        color: white;
+        margin-top: 5%;
+    }
+       
+   
+   footer li {
+        text-align: right;
+        list-style: none;
+        color: white;
+        line-height: 1.5;
+   }
+   footer a {
+        color: white;
+        
+   }
+ 
+
+
+/*Divs*/
+    div {
     position: relative;
     top: 15%;
-    margin: 7.5%;
+    margin: 5%;
+    text-align: center;
+    margin: auto;
 }
 /* Headers */
 * {
-    font-family: "Roboto";
+    font-family: "IBM Plex Sans";
+    margin: auto;
 }
 h1 {
     font-size: 2.25em;
     margin: 5%;
+    padding-bottom: 1.5%;
+    font-weight: 700;
 }
 h2 {
     text-align: center;
-    margin: 5%;
-    font-size: 1.8em;
+    margin: 4%;
+    font-size: 2em;
+    padding-bottom: 4%;
+    font-weight: 600;
 }
 h3 {
     text-align: center;
     margin: 5%;
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 h4 {
     text-align: center;
@@ -73,45 +107,13 @@ h4 {
             width: 75%;
             text-align: justify;
         }
-    /*Intro Div*/
-    #intro-section {
-        position: relative;
-        top: 60px;
-        height: 200px;    
-    }
-    #intro-section p {
-    border: solid lightgrey;
-    border-width: 3px;
-    border-radius: 20px;
-    padding: 20px;
-    background-color: lightgray;
-    margin: 20px 0px 30px 0px;
-    width: 85%;
-    margin: 0px auto;
-    }
-    #intro-section li {
-        position: relative;
-        top: 30px;
-        padding: 10px;
-    }
-    #intro-section img {
-        
-        overflow: none;
-        position: relative;
-        top: 50px;
-        width: 100px;
-        display: inline-block;
-        margin: 0px auto;
-        padding: 10px;
-
-    }
-/*End of Intro Div*/
+   
     /*Project Preview*/
         .project-card {
             display: inline-block;
             width: 28%;
-            border: solid lightgrey;
-            background-color: lightgrey;
+            border: none;
+            background-color: black;
             border-width: 1%;
             border-radius: 1.25em;
             margin: auto;
@@ -119,32 +121,47 @@ h4 {
             padding: 1%;
             position: relative;
             top: 10%;
+            color: white;
+            font-size: 0.9em;
+            line-height: 1.35;
+            letter-spacing: 5;
+            height: fit-content;
             
             
         }
         div .project-card {
             margin: 0.5%;
         }
+        #projects-preview-homepage {
+            padding: 1.5%;
+            width: 85%;
+        }
         .project-card img {
-            width: 90%;
+            width: 94%;
             height: 250px;
             border-radius: 1em;
-            padding: 1.5%;
+            padding: 2%;
         }
         .project-card p {
-            text-align: center;
+            text-align: justify;
             overflow: none;
             margin: auto;
             padding: 5%;
+            font-style: bold;
+            width: 85%;
         }
         button {
             width: 50%;
-            border: solid black;
-            border-width: 2px;
+            border: none;
             border-radius: 1em;
             padding: 2%;
             margin: 4%;
+            background-color: hotpink;
+            color: white;
+            font-style: bold;
+
         }
+        
 /*End of Homepage*/
 /*About Page:*/
     
